@@ -300,6 +300,19 @@ h2 {
   background-color: darkgrey;
   margin: auto;
 }
+.contact .row{
+  width: 90%;
+  margin: auto;
+}
+.contact .col{
+  width: 90%;
+  margin: auto;
+}
+input[type="submit"]:hover{
+  cursor:pointer;
+  background: black;
+  color:white;
+  }
 
 footer {
   background-color: lightblue;
