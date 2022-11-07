@@ -317,3 +317,14 @@ input[type="submit"]:hover{
 footer {
   background-color: lightblue;
 }
+.icons{
+  display: block;
+  align-items: flex-start;
+  justify-content: space-around ;
+  margin-top: 10px;
+  border: gray;
+}
+.icons-items{
+  border: 10px  gray;
+}
+
