@@ -50,12 +50,23 @@ a {
 } 
 .landing-page-2{
   width: 20%;
-  background-color: darkgrey;
+  background-color: darkgray;
 }
 .landing-page-2 p{
   justify-content: center;
   align-items: center;
 }
+.icons{
+  display: grid;
+  margin-top: 620px;
+  margin-left: 10px;
+}
+.icon-item{
+  margin-bottom: 10px;
+  border:lightblue;
+}
+
+
 .landing-page {
   min-height: 100%;
   width: 80%;
@@ -316,15 +327,5 @@ input[type="submit"]:hover{
 
 footer {
   background-color: lightblue;
-}
-.icons{
-  display: block;
-  align-items: flex-start;
-  justify-content: space-around ;
-  margin-top: 10px;
-  border: gray;
-}
-.icons-items{
-  border: 10px  gray;
 }
 
