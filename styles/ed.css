@@ -1,0 +1,88 @@
+.education {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 90%;
+    height: 22%;
+    text-align: justify;
+    font-size: larger;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: space-around;
+}
+
+.edu-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-right: 30px;
+}
+
+p {
+    width: 400px;  
+}
+
+@media screen and (max-width: 730px) {
+    .education {
+        height: 120vh;
+    }
+
+    .education p {
+        font-size: small;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .content {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .education {
+        height: 130vh;
+        justify-content: space-around;
+    }
+
+    .education p {
+        font-size: small;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .content {
+        font-size: medium;
+    }
+
+    /* Assuming .divider is used elsewhere in your code */
+    .divider > .divider-line {
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .education {
+        height: 150vh;
+    }
+
+    .education p {
+        font-size: smaller;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .content {
+        font-size: small;
+    }
+
+    /* Assuming .divider is used elsewhere in your code */
+    .divider > .divider-line {
+        height: 90%;
+    }
+}

@@ -1,0 +1,95 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.landing-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('https://i.postimg.cc/zvpv4L6F/IMG-20230511-WA0014.jpg') no-repeat;
+  background-size: 85% auto;
+  background-position: left;
+}
+
+.name {
+  width: 85%;
+  margin-left: 120px;
+  margin-top: 150px;
+
+}
+
+.name > p {
+  width: 450px;
+  margin: 0px !important;
+}
+
+.landing-links {
+  background: rgb(222, 161, 48);
+  position: fixed;
+  top: 120px;
+  left: 75%;
+  height: 83vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.landing-links > a {
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  color:black;
+  text-decoration: none;
+}
+
+.landing-links > a:hover {
+  color:white;
+  scale: 1.2;
+
+}
+
+.statement {
+  text-align: justify;
+}
+
+.statement > h2 {
+  color: rgb(222, 161, 48);
+  font-weight: bold;
+}
+
+.icons {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  margin-top: 120px;
+  margin-left: 10px;
+  gap: 20px;
+} 
+
+.icon-item {
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(222, 161, 48);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.icon-item svg {
+  color: rgb(222, 161, 48);
+  width: 30px;
+  height: 30px;
+}

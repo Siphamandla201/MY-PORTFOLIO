@@ -1,0 +1,66 @@
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.test-card {
+  width: 500px;
+  background-color: transparent;
+  border: none;
+}
+
+.test-card-inner {
+  display: flex;
+  gap: 10px;
+}
+
+.test-card-profile {
+  width: 120px;
+  padding-top: 5px;
+}
+
+.test-card-profile > img {
+  width: 100%;
+  /* height: 80%; */
+  border-radius: 30%;
+}
+
+.test-card-body {
+  text-align: justify;
+  color: antiquewhite;
+  padding: 0;
+  width: 300px;
+}
+
+.testimonial {
+  width: 330px;
+  margin: 0;
+}
+
+.second-quote {
+  text-align: end;
+}
+
+.test-info {
+  margin-left: 25px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+h5 {
+  margin: 0;
+  color: rgb(222, 161, 48);
+}
+
+.hr {
+  width: 10px;
+  height: 2px;
+  background-color: rgb(222, 161, 48);
+  margin-bottom: 0;
+}

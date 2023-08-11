@@ -1,0 +1,96 @@
+/* About Section */
+.about {
+    width: 75%;
+    background: black;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-profile,
+.about-text {
+    width: 50vw;
+    height: 100vh;
+}
+
+.profile-img {
+    /* position: relative;
+    top: -1500px;
+    left: 95px; */
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.about-text > p {
+    font-size: 10px; /* Adjusted font size */
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+.about-profile  {
+    width: 100%;
+    background:url("https://i.postimg.cc/W4yVmXMV/DSC-3554.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    box-sizing: border-box;
+}
+
+/* .about-profile > img {
+    width: 50%;
+    height: 70%;
+    display: block;
+    margin-top: 70px;
+    margin-left: 20%;
+} */
+
+.about-text > button {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1030px) {
+    .about-profile > img {
+        position: relative;
+        border: 5px rgb(222, 161, 48) solid;
+        top: -10px;
+        left: 120px;
+        margin: 30px auto;
+    }
+
+    .about-profile > .profile-frame {
+        display: none;
+    }
+
+    .about-text {
+        max-width: 50%;
+    }
+
+    .about-text > p {
+        font-size: 10px; /* Adjusted font size */
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .about-text > p {
+        font-size: 10px; /* Adjusted font size */
+        margin-left: 0;
+        padding: 10px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-text > p {
+        font-size: 10px; /* Adjusted font size */
+    }
+
+    h3 {
+        display: none;
+    }
+}
+
+

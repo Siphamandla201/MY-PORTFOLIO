@@ -1,0 +1,218 @@
+
+.project {
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 1100px;
+  height: 400px;
+  background-color: rgba(10, 10, 10, 255);
+  border-radius: 0px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+
+.card-head {
+  width: 350px;
+  text-align: start;
+}
+
+.card-title {
+  width: 350px;
+  color: rgba(166, 123, 44, 255);
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
+
+.ecom {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.card-body {
+  width: 400px;
+  text-align: start;
+  padding-top: 0px;
+}
+
+.overview {
+  color: rgba(166, 123, 44, 255);
+}
+
+/* .icons {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  gap: 40px;
+  margin-left: 10px;
+} */
+
+/* .icons > div {
+  width: 60px;
+  height: 60px;
+  border: 3px rgba(166, 123, 44, 255) solid;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-bottom: 5px !important;
+  padding-top: 10px !important;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 5px;
+  border: 2px rgba(166, 123, 44, 255) solid;
+} */
+
+i {
+  font-size: 35px;
+  color: rgba(166, 123, 44, 255);
+}
+
+.button {
+  background-color: rgba(166, 123, 44, 255);
+  border: 2px rgba(166, 123, 44, 255) solid;
+  width: 250px;
+  margin-left: 120px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: transparent;
+  font-weight: bold;
+  color: rgba(166, 123, 44, 255);
+}
+
+.more-info {
+  width: 1200px;
+  height: 450px;
+  background-color: rgba(10, 10, 10, 255);
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  display: none;
+}
+
+.close-btn {
+  margin-top: 15px;
+  position: relative;
+  left: 565px;
+  background-color: transparent;
+  border: none;
+}
+
+.more-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: center;
+  gap: 20px;
+  text-align: start;
+}
+
+.links {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: rgb(166, 123, 44);
+  text-decoration: none;
+}
+
+hr {
+  height: 5px;
+  border: 0px;
+  width: 1100px;
+  background-color: rgb(166, 123, 44);
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: rgb(166, 123, 44);
+  color: rgb(0, 0, 0);
+  width: 100px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  border: 2px rgb(166, 123, 44) solid;
+  width: 100px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    height: 140vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    height: 75vh;
+  }
+
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+
+  img {
+    width: 60px;
+    margin: auto 5px;
+    margin-top: 5px;
+  }
+
+  .card-body {
+    width: 400px;
+    position: absolute;
+    top: 0px;
+  }
+
+  p {
+    font-size: x-small;
+    margin: 0%;
+    text-align: center;
+  }
+
+  button {
+    width: 30px;
+    margin-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    height: 14px;
+  }
+
+  button > a {
+    font-size: xx-small;
+    text-align: center;
+    line-height: 0%;
+    position: relative;
+    top: -8px;
+    left: -15px;
+  }
+}
